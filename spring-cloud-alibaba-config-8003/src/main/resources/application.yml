@@ -1,0 +1,4 @@
+spring:
+  profiles:
+    active: dev # \u6FC0\u6D3Bdev\u7684\u914D\u7F6E
+

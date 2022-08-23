@@ -1,0 +1,19 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: sentinel-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      #  server-addr: localhost:1111 # nginx \u96C6\u7FA4\u5730\u5740
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #\u914D\u7F6E Sentinel dashboard \u5730\u5740
+        port: 8719 #\u9ED8\u8BA48719\u7AEF\u53E3\uFF0C\u5047\u5982\u88AB\u5360\u7528\u4F1A\u81EA\u52A8\u4ECE8719\u5F00\u59CB\u4F9D\u6B21+1\u626B\u63CF,\u76F4\u81F3\u627E\u5230\u672A\u88AB\u5360\u7528\u7684\u7AEF\u53E3
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

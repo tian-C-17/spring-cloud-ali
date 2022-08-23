@@ -1,0 +1,6 @@
+service-url:
+  nacos-user-service: http://spring-cloud-provider-8005 #\u6D88\u8D39\u8005\u8981\u65B9\u4F4D\u7684\u5FAE\u670D\u52A1\u540D\u79F0
+# \u6FC0\u6D3BSentinel\u5BF9Feign\u7684\u652F\u6301
+feign:
+  sentinel:
+    enabled: true

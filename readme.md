@@ -7,3 +7,8 @@ spring cloud alibaba 版本
 
 -------   server集群化部署 + Nginx 使用
 
+
+
+--------------Sentinel  ----高可用流量控制组件
+
+

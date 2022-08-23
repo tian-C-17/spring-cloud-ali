@@ -1,0 +1,14 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: spring-cloud-provider-8005
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * \u5728yaml \u6587\u4EF6\u5C5E\u4E8E\u5173\u952E\u5B57\uFF0C\u6240\u4EE5\u9700\u8981\u52A0\u5F15\u53F7

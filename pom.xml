@@ -38,6 +38,9 @@
         <module>spring-cloud-alibaba-consumer-8002</module>
 <!--        配置中心-->
         <module>spring-cloud-alibaba-config-8003</module>
+        <module>spring-cloud-alibaba-sentinel-service-8004</module>
+        <module>spring-cloud-alibaba-provider-8005</module>
+        <module>spring-cloud-alibaba-consumer-8006</module>
     </modules>
 
 

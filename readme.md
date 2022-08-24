@@ -11,4 +11,6 @@ spring cloud alibaba 版本
 
 --------------Sentinel  ----高可用流量控制组件
 
+----------Seata 分布式事务管理
 
+------整合nacos配置中心
